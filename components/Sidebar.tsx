@@ -47,6 +47,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                     p-2
                 "
             >
+                
                 <Box>
                     <div
                         className="
@@ -55,6 +56,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                             gap-y-4
                             px-5
                             py-4
+                            bg-blue-400
                         "
                     >
                         {route.map((item) => (
