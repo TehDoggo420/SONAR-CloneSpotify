@@ -9,3 +9,11 @@ body,
   background-color: black;
   color-scheme: dark;
 }
+
+#__next {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
